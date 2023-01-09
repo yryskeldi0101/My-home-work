@@ -1,0 +1,15 @@
+.mainBtn {
+    display: flex;
+    margin-left: 230px;
+    padding: 15px 30px;
+  width: 228px;
+  height: 51px;
+  background: #4a026b;
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
