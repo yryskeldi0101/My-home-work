@@ -8,7 +8,7 @@ import NewExpense from "./components/new-expenses/NewExpense";
 function App() {
   const [expenses , setExpenses] = useState([
     {
-      title: 'Toilet paper',
+      title: 'Fruits',
       price: 300,
       date: new Date()
     },

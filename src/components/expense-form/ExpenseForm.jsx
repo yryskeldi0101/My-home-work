@@ -40,7 +40,6 @@ const ExpenseForm = (props) => {
     setDate(event.target.value);
   };
 
-  console.log("123456");
  
   return (
     <form className="form">
