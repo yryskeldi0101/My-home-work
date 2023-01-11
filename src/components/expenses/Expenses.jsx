@@ -13,10 +13,9 @@ const Expenses = ({ expenses }) => {
     return stringifiedYear === selectedYear;
   });
   return (
-    <div className="expenses">
-      <Chart items={filteredItems}/>
       <ul className="ul-list">
       <ExpensesFilter value={selectedYear} onChange={yearChangeHandler} />
+      <Chart items={filteredItems}/>
         {filteredItems.map((elem) => {
           return (
             <ExpenseItem
@@ -28,7 +27,6 @@ const Expenses = ({ expenses }) => {
           );
         })}
       </ul>
-    </div>
   );
 };
 
