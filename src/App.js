@@ -8,24 +8,24 @@ const items = [
     id: 1,
     title: 'Fruits',
     price: 300,
-    date: new Date(2021, 2, 28)
+    date: new Date(2021, 0, 28)
   },
   {
     id: 2,
     title: 'Food',
     price: 400,
-    date: new Date(2021, 5, 12)
+    date: new Date(2021, 1, 12)
   },
   {
     id: 3,
     title: 'Tea',
-    price: 300,
-    date: new Date(2022, 7, 12)
+    price: 400,
+    date: new Date(2022, 2, 12)
   },{
     id: 4,
     title: 'New Desk',
-    price: 300,
-    date: new Date(2022, 2, 28)
+    price: 850,
+    date: new Date(2022, 3, 28)
   },
   {
     id: 5,
@@ -36,38 +36,59 @@ const items = [
   {
     id: 6,
     title: 'Air Pods',
-    price: 50,
-    date: new Date(2022, 2, 28)
+    price: 500,
+    date: new Date(2022, 4, 28)
   },
   {
     id: 7,
     title: 'Water',
-    price: 300,
-    date: new Date(2019, 4, 28)
+    price: 650,
+    date: new Date(2019, 5, 28)
   },
   {
     id: 8,
     title: 'Books',
-    price: 300,
-    date: new Date(2020, 4, 28)
+    price: 800,
+    date: new Date(2020, 6, 28)
   },
   {
     id: 9,
     title: 'Laptop',
-    price: 300,
-    date: new Date(2019, 8, 28)
+    price: 350,
+    date: new Date(2019, 7, 28)
   },
    {
     id: 10,
     title: 'Apple',
-    price: 70,
-    date: new Date(2020, 4, 18)
+    price: 700,
+    date: new Date(2020, 8, 18)
   },
   {
     id:11,
-    title: 'Car',
-    price: 5000,
-    date: new Date(2023, 4, 18)
+    title: "Orange",
+    price: 600,
+    date: new Date(2023, 9, 18)
+  },
+  {
+    id:12,
+    title: 'Pear',
+    price: 500,
+    date: new Date(2023, 10, 14)
+  },{
+    id:13,
+    title: 'Grape',
+    price: 500,
+    date: new Date(2019, 11, 28)
+  },{
+    id:14,
+    title: 'Kiwi',
+    price: 700,
+    date: new Date(2020, 6, 20)
+  },{
+    id:11,
+    title: 'Banana',
+    price: 1000,
+    date: new Date(2021, 4, 18)
   },
 ]
 

@@ -15,9 +15,8 @@ const Expenses = ({ expenses }) => {
   return (
     <div className="expenses">
       <Chart items={filteredItems}/>
-      <ExpensesFilter value={selectedYear} onChange={yearChangeHandler} />
-
       <ul className="ul-list">
+      <ExpensesFilter value={selectedYear} onChange={yearChangeHandler} />
         {filteredItems.map((elem) => {
           return (
             <ExpenseItem
