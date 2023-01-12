@@ -31,3 +31,4 @@ const Expenses = ({ expenses }) => {
 };
 
 export default Expenses;
+
